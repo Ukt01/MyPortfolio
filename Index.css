@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-image: url(wave_background.svg);
+    /* Replace 'path-to-your-image.jpg' with the actual path to your image file */
+    background-size: cover;
+    /* Scale the background image to cover the entire body element */
+    background-repeat: no-repeat;
+    /* Prevent the background image from repeating */
+  }
+.nav-link
+{
+    color:#ffffff;
+    font-size: 20px;
+    margin-right: 40px;
+    padding: 10px;
+}
+.nav-link:hover{
+    background-color: #F9F871;
+    color: #000000;
+    font-size: 1.3vw;    
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.navbar-brand
+{
+    font-family: Arial, sans-serif;
+    color: #fff;
+    font-size: 2vw;
+}
+.main{
+    margin-top:10px;
+    padding-top: 20px;
+}
+.heading{
+    color: #F9F871;
+    /* text-shadow: 5px 5px 5px #828280; */
+    font-size: 2vw;
+}
+.sub-heading{
+    color: #ffffff;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+.underline{
+    text-decoration: underline;
+}
+.name{
+    font-size: 4vw;
+}
+.role
+{
+    font-size: 2vw;
+}
+
+.progress-bar
+{
+    background-color: #F9F871;
+    color: #000000 ;
+    width: 100%;
+    text-shadow: 5px 5px 5px #000000; 
+  }
+  .progress{ 
+    background-color: #a9a9a2;
+    box-shadow: 5px 5px 5px #595959; 
+    height: 4vh;
+  
+}
+
+.navbar-toggler-icon{
+  color: white !important;
+} 
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+  color: #F9F871;
+  margin: 5vh;
+}
+
+.footer-basic .social > a {
+  font-size:32px;
+  width:60px;
+  height:60px;
+  line-height:60px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:2px solid #F9F871;
+  margin:0 8px;
+  color:inherit;
+  opacity:1;
+}
+  @media (max-width: 768px) {
+    .footer-basic .social > a
+    {
+        font-size: 24px; 
+        width: 40px;
+        height: 40px; 
+        line-height: 40px; 
+    }
+  }
+
+.footer-basic .social > a:hover {
+  opacity:0.5;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
